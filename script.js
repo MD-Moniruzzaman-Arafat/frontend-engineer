@@ -18,6 +18,23 @@ console.log(typeof noDefineValue);
 console.log(typeof alert); */
 
 // alert, prompt, confirm
-alert("hello world");
+/* alert("hello world");
 prompt();
-confirm();
+confirm(); */
+
+// type conversion
+const number = 100;
+const stringConversion = String(number);
+console.log(stringConversion);
+
+const string = "123";
+const numberConversion1 = Number(string);
+console.log(numberConversion1);
+
+const boolean = true;
+const numberConversion2 = Number(boolean);
+console.log(numberConversion2);
+
+const boolean1 = false;
+const stringConversion3 = String(boolean1);
+console.log(stringConversion3);
